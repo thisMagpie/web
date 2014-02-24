@@ -1,9 +1,7 @@
 <?php
 /**
  * The template for displaying posts in the Gallery post format
- *
- * @package WordPress
- * @subpackage Magpie
+ * @package Magpie
  * @since Magpie 1.0
  */
 ?>
@@ -52,6 +50,5 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-
 	<?php the_tags( '<footer class="entry-meta"><span class="tag-links">', '', '</span></footer>' ); ?>
 </article><!-- #post-## -->

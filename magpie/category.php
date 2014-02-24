@@ -4,8 +4,7 @@
  *
  * @link http://codex.wordpress.org/Template_Hierarchy
  *
- * @package WordPress
- * @subpackage Magpie
+ * @package Magpie
  * @since Magpie 1.0
  */
 
@@ -16,7 +15,6 @@ get_header(); ?>
 			<?php if ( have_posts() ) : ?>
 			<header class="archive-header">
 				<h1 class="archive-title"><?php printf( __( 'Latest %s', 'magpie' ), single_cat_title( '', false ) ); ?></h1>
-
 				<?php
 					$term_description = term_description();
 					if ( ! empty( $term_description ) ) :

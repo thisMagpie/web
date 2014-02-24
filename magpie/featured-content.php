@@ -2,8 +2,7 @@
 /**
  * The template for displaying featured content
  *
- * @package WordPress
- * @subpackage Magpie
+ * @package Magpie
  * @since Magpie 1.0
  */
 ?>
