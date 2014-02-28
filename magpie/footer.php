@@ -19,22 +19,22 @@
                                 </a>
                             </td>
                             <td align="right">
-                                Copyright &copy; thismagpie.com unless otherwise noted.
-                                <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en_US">
+                                Site content is copyright &copy; thismagpie.com unless noted, where rights belong to respective authors instead
+                                <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en_US">.
                                  <img alt="Creative Commons License"
-				   style="border-width:0"
-				   src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
-				   </a>
+                                   style="border-width:0"
+                                   src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
+                                   </a>
                             </td>
                             <td align="right">
-                                | Home | Privacy | Accessibility |
+                                Home | Privacy | Accessibility
                             </td>
                         </tr>
                     </table>
                 </div><!-- .site-info -->
+            <?php wp_footer(); ?>
             </footer><!-- #colophon -->
         </div><!-- #page -->
-        <?php wp_footer(); ?>
         <?php include_once "alexa.php"; ?>
     </body>
 </html>
