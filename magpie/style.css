@@ -3178,13 +3178,13 @@ a.post-thumbnail:hover {
 	}
 
 	.content-area {
-		min-width: 50%;
+		max-width: 100%;
 		padding-left:140px;
 		padding-right:360px;
 	}
 
 	.site-content {
-		margin-right: 0%;
+	    padding-top:0px;
 	}
 
 	.site-content .has-post-thumbnail .entry-header {
@@ -3225,9 +3225,8 @@ a.post-thumbnail:hover {
 	.content-sidebar {
 		border: 0px dotted #ccc;
 		float: right;
-		padding: 92px 10px 12px;
-		width: 310px;
-		margin-left:-310px;
+		padding: 46px 10px 12px;
+		width: 320px;
 		background:#f7f7f7;
 	}
 	.grid .featured-content .hentry {
@@ -3456,7 +3455,7 @@ a.post-thumbnail:hover {
 @media screen and (min-width: 810px) {
 	.attachment .entry-attachment .attachment {
 		margin-right: -168px;
-		margin-left: -168px;
+		margin-left: -320px;
 		max-width: 810px;
 	}
 
@@ -3496,7 +3495,7 @@ a.post-thumbnail:hover {
 	.full-width .site-content img.size-large.alignright,
 	.full-width .site-content img.size-medium.alignright,
 	.full-width .site-content .wp-caption.alignright {
-		margin-right: -168px;
+		margin-right: 320px;
 	}
 
 	.full-width .site-content .alignright {
@@ -3511,7 +3510,7 @@ a.post-thumbnail:hover {
 	}
 
 	.site-content .has-post-thumbnail .entry-header {
-		margin-top: -48px;
+		margin-top: -46px;
 	}
 
 	.comment-list .trackback,
@@ -3540,7 +3539,7 @@ a.post-thumbnail:hover {
 	}
 
 	.full-width.singular .site-content .hentry.has-post-thumbnail {
-		margin-top: -72px;
+		margin-top: -46px;
 	}
 
 	.featured-content {
@@ -3569,21 +3568,17 @@ a.post-thumbnail:hover {
 	}
 
 	.content-sidebar {
-		margin-left: 0px;
-		width: 310px;
-		padding-top:0px;
+		width: 320px;
 	}
 
 	.site:before {
 		background-color: #fff;
 		content: "";
 		display: block;
-		height: 100%;
 		min-height: 100%;
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 310px;
 		z-index: 2;
 	}
 
