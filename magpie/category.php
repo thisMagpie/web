@@ -14,7 +14,6 @@ get_header(); ?>
 		<div id="content" class="site-content" role="main">
 			<?php if ( have_posts() ) : ?>
 			<header class="archive-header">
-				<h1 class="archive-title"><?php printf( __( 'Latest %s', 'magpie' ), single_cat_title( '', false ) ); ?></h1>
 				<?php
 					$term_description = term_description();
 					if ( ! empty( $term_description ) ) :
@@ -22,7 +21,6 @@ get_header(); ?>
 					endif;
 				?>
 			</header><!-- .archive-header -->
-
 			<?php
 					// Start the Loop.
 					while ( have_posts() ) : the_post();

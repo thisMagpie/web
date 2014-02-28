@@ -9,8 +9,7 @@
  *
  * @link http://codex.wordpress.org/Template_Hierarchy
  *
- * @package WordPress
- * @subpackage Magpie
+ * @package Magpie
  * @since Magpie 1.0
  */
 

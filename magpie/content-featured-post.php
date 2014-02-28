@@ -2,8 +2,7 @@
 /**
  * The template for displaying featured posts on the front page
  *
- * @package WordPress
- * @subpackage Magpie
+ * @package Magpie
  * @since Magpie 1.0
  */
 ?>
