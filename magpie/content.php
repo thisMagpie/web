@@ -10,11 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <!--<?php magpie_post_thumbnail(); ?>-->
     <header class="entry-header">
-    <!--    <?php if ( in_array( 'category',
-                             get_object_taxonomies( get_post_type() ) ) && magpie_categorized_blog() ) :
-        ?> -->
         <div class="entry-meta">
         <span class="cat-links">
             <?php echo get_the_category_list( _x( ', ',
@@ -25,8 +21,8 @@
 			endif;
 
             if ( is_single() ) :
-                the_title( '<h2 class="entry-title">',
-                           '</h2>' );
+                the_title( '<h1 class="entry-title">',
+                           '</h1>' );
             else :
                 the_title( '<h1 class="entry-title">
                 <a href="' . esc_url( get_permalink() ) . '" rel="bookmark">',
@@ -42,15 +38,14 @@
 				if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
 			?>
             <span class="comments-link">
-        <!--    <?php comments_popup_link( __( 'Leave a comment', 'magpie' ),
+            <?php comments_popup_link( __( 'Leave a comment', 'magpie' ),
                                        __( '1 Comment', 'magpie' ),
                                        __( '% Comments', 'magpie' )
                                      ); 
-            ?> -->
+            ?>
 			</span>
 			<?php
 				endif;
-
                 edit_post_link( __( 'Edit', 'magpie' ),
                                     '<span class="edit-link">',
                                     '</span>' );
