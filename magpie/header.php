@@ -1,9 +1,5 @@
 <?php
 /**
- * The Header for our theme
- *
- * Displays all of the <head> section and everything up till <div id="main">
- *
  * @package Magpie
  * @since Magpie 1.0
  */
@@ -28,7 +24,6 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
-	<?php include_once "ga.php"; ?>
 	<?php wp_head(); ?>
 </head>
 
@@ -44,24 +39,22 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-main">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+			<?php bloginfo( 'name' ); ?></a></h1>
 			<div class="search-toggle">
 				<a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'magpie' ); ?></a>
 			</div>
-
 			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
 				<h1 class="menu-toggle"><?php _e( 'Primary Menu', 'magpie' ); ?></h1>
-				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'magpie' ); ?></a>
+				<a class="screen-reader-text skip-link" href="#content">
+				<?php _e( 'Skip to content', 'magpie' ); ?></a>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 			</nav>
 		</div>
-
 		<div id="search-container" class="search-box-wrapper hide">
 			<div class="search-box">
 				<?php get_search_form(); ?>
 			</div>
 		</div>
 	</header><!-- #masthead -->
-
 	<div id="main" class="site-main">
