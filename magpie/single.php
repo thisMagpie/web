@@ -2,13 +2,12 @@
 /**
  * The Template for displaying all single posts
  *
- * @package WordPress
- * @subpackage Magpie
+ * @package Magpie
  * @since Magpie 1.0
  */
 
 get_header(); ?>
-
+<div id="main-content" class="main-content">
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 			<?php
@@ -33,6 +32,7 @@ get_header(); ?>
 			?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
+</div><!-- #main-content -->
 <?php
 get_sidebar( 'content' );
 get_sidebar();

@@ -144,13 +144,13 @@ site-content blockquote.alignleft, .site-content blockquote.alignright{border-to
 .post-thumbnail{z-index:0;}
 a.post-thumbnail:hover{background-color:#999;}
 .full-width .post-thumbnail img{margin:0 auto;}
-.entry-header{padding-top:20px;float:left;z-index:1;}
-.entry-title{font-size:3.2em;font-weight:500;line-height:1.1;margin:12px;text-transform:none;}
+.entry-header{z-index:1;}
+.entry-title{font-size:3.2em;font-weight:500;line-height:1.1;margin:12px 24px 12px 12px;padding:20px;}
 .entry-title a{color:#000;}
 .entry-title a:hover{color:#000;}
 .site-content .entry-header{background-color:#eaeaea;}
-.site-content .has-post-thumbnail .entry-header{padding-top:1.0px;padding-left:0;}
-.entry-meta{clear:both;color:#767676;font-size:1.0em;font-weight:500;line-height:1.0;text-transform:none;float:right;}
+.site-content .has-post-thumbnail .entry-header{padding-top:1.0px; padding-left:0;}
+.entry-meta{clear:both;color:#767;font-size:1.0em;font-weight:500;line-height:1.0;float:right;}
 .entry-meta a:hover{color:#6EAEE6;}
 .sticky .entry-date{display:none;}
 .cat-links{font-weight:900;text-transform:none;}
@@ -241,7 +241,7 @@ a.post-thumbnail:hover{background-color:#999;}
 .contributor-posts-link:before{content:"\f443";}
 .error404 .page-content{padding-top:0;}
 .error404 .page-content .search-form{margin-bottom:1.0em;}
-.full-width .hentry{max-width:100%;max-height: 100%;padding-right: 120px;}
+.full-width .hentry{max-width:100%;max-height: 100%;padding-right: 320px;}
 .singular .site-content .hentry.has-post-thumbnail{margin-top:44px;}
 .comments-area{margin:0px auto;padding:0 10px;}
 .comment-reply-title, .comments-title{font:900 1.0em/1.5 Lato, sans-serif;margin:0;text-transform:none;}
@@ -483,7 +483,7 @@ a.post-thumbnail:hover{background-color:#999;}
 .site-content .has-post-thumbnail .entry-header{margin-top:0;}
 .singular .site-content .hentry.has-post-thumbnail{margin-top:0;}
 .full-width .site-content{margin-right:0;}
-.full-width .site-content .has-post-thumbnail .entry-header, .full-width.singular .site-content .hentry.has-post-thumbnail{margin-top:-44px;}
+.full-width .site-content .has-post-thumbnail .entry-header, .full-width.singular .site-content .hentry.has-post-thumbnail{margin-top:0px;}
 #secondary, #supplementary{/* padding:0px 0px; */}
 .content-sidebar{background:transparent;padding:0 0 0 0;float:right;width:320px;background:#f7f7f7;}
 .grid .featured-content .hentry{float:left;}

@@ -43,12 +43,12 @@ class Featured_Content {
 	}
 
 	/**
-	 * Conditionally hook into WordPress.
+	 * Conditional hook
 	 *
 	 * Theme must declare that they support this module by adding
 	 * add_theme_support( 'featured-content' ); during after_setup_theme.
 	 *
-	 * If no theme support is found there is no need to hook into WordPress.
+	 * If no theme support is found there is no need to hook
 	 * We'll just return early instead.
 	 *
 	 * @static
@@ -197,7 +197,6 @@ class Featured_Content {
 	 *
 	 * @static
 	 * @access public
-	 * @since Twenty Fourteen 1.0
 	 *
 	 * @return array Array of sticky posts.
 	 */
@@ -230,7 +229,6 @@ class Featured_Content {
 	 *
 	 * @static
 	 * @access public
-	 * @since Twenty Fourteen 1.0
 	 *
 	 * @param WP_Query $query WP_Query object.
 	 * @return WP_Query Possibly-modified WP_Query.
@@ -442,7 +440,6 @@ class Featured_Content {
 	 *
 	 * @static
 	 * @access public
-	 * @since Twenty Fourteen 1.0
 	 */
 	public static function enqueue_scripts() {
 		wp_enqueue_script( 'featured-content-suggest', get_template_directory_uri() . '/js/featured-content-admin.js', array( 'jquery', 'suggest' ), '20131022', true );
@@ -497,7 +494,6 @@ class Featured_Content {
 	 *
 	 * @static
 	 * @access public
-	 * @since Twenty Fourteen 1.0
 	 *
 	 * @param array $input Array of settings input.
 	 * @return array Validated settings output.
@@ -540,7 +536,7 @@ class Featured_Content {
 	 *
 	 * @static
 	 * @access public
-	 * @since Twenty Fourteen 1.0
+	 * @since Magpie 1.0
 	 *
 	 * @param int $input The value to sanitize.
 	 * @return int A number between 1 and FeaturedContent::$max_posts.

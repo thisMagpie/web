@@ -70,6 +70,6 @@
 	</div><!-- .entry-content -->
 	<?php endif; ?>
 
-	<?php the_tags( '<footer class="entry-meta"><span class="tag-links">',
-	                '', '</span></footer>' ); ?>
+<!--	<?php the_tags( '<footer class="entry-meta"><span class="tag-links">',
+	                '', '</span></footer>' ); ?>-->
 </article><!-- #post-## -->

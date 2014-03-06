@@ -1,6 +1,5 @@
 <?php
 /**
- * Display the footer
  * Contains footer content and the closing of the #main and #page div elements.
  * @package Magpie
  * @since Magpie 1.0
@@ -13,13 +12,13 @@
                     <?php do_action( 'magpie_credits' ); ?>
                     <table>
                         <tr>
-                            <td style="align:right">
+                            <td style="align:right;">
                                 <a href="<?php echo esc_url( __( 'http://my.tsohost.com/aff.php?aff=1337', 'magpie' ) ); ?>">
                                 <?php printf( __( 'Powered by %s', 'magpie' ), 'TSO Host' ); ?>.
                                 </a>
                             </td>
                             <td align="right">
-                                Site content is copyright &copy; thismagpie.com unless noted, where rights belong to respective authors instead
+                                Site content is copyright &copy; thismagpie.com unless noted otherwise. 
                                 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en_US">.
                                  <img alt="Creative Commons License"
                                    style="border-width:0"
@@ -35,6 +34,6 @@
             <?php wp_footer(); ?>
             </footer><!-- #colophon -->
         </div><!-- #page -->
-        <?php include_once "alexa.php"; ?>
+        <?php include "alexa.php"; ?>
     </body>
 </html>
