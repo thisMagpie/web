@@ -8,7 +8,6 @@
  * @since Magpie 1.0
  */
 ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <header class="entry-header">
         <div class="entry-meta">
@@ -61,7 +60,7 @@
 			the_content( __( 'Read on... <span class="meta-nav">&rarr;</span>', 'magpie' ) );
 			wp_link_pages( array(
 				'before'      => '<div class="page-links">
-				                  <span class="page-links-title">' . __( 'Pages:', 'magpie' ) . '</span>',
+				                  <span class="page-links-title">' . __( '', 'magpie' ) . '</span>',
 				'after'       => '</div>',
 				'link_before' => '<span>',
 				'link_after'  => '</span>',
@@ -69,7 +68,6 @@
 		?>
 	</div><!-- .entry-content -->
 	<?php endif; ?>
-
-<!--	<?php the_tags( '<footer class="entry-meta"><span class="tag-links">',
-	                '', '</span></footer>' ); ?>-->
+	<?php the_tags( '<footer class="entry-meta"><span class="tag-links">',
+	                '', '</span></footer>' ); ?>
 </article><!-- #post-## -->
