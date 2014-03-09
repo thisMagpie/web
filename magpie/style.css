@@ -168,7 +168,7 @@ a.post-thumbnail:hover{background-color:#999;}
 .site-content .entry-content, .site-content .entry-summary, .page-content{background-color:#fff;padding:20px 20px 20px 40px;border:#ccc solid 0;}
 .page .entry-content{padding-top:0;}
 .entry-content h1:first-child, .entry-content h2:first-child, .entry-content h3:first-child, .entry-content h4:first-child, .entry-content h5:first-child, .entry-content h6:first-child, .entry-summary h1:first-child, .entry-summary h2:first-child, .entry-summary h3:first-child, .entry-summary h4:first-child, .entry-summary h5:first-child, .entry-summary h6:first-child, .page-content h1:first-child, .page-content h2:first-child, .page-content h3:first-child, .page-content h4:first-child, .page-content h5:first-child, .page-content h6:first-child{margin-top:0;}
-.entry-content a, .entry-summary a, .page-content a, .comment-content a{text-decoration:underline;}
+.entry-content a, .entry-summary a, .page-content a, .comment-content a{text-decoration:none}
 .entry-content a:hover, .entry-summary a:hover, .page-content a:hover, .comment-content a:hover{text-decoration:none;}
 .entry-content table, .comment-content table{font-size:1.0em;line-height:1.2857142857;margin-bottom:1.0em;}
 .entry-content th, .comment-content th{font-weight:700;padding:8px;text-transform:none;}
@@ -228,14 +228,14 @@ a.post-thumbnail:hover{background-color:#999;}
 .taxonomy-description, .author-description{color:#767676;font-size:0.8em;line-height:1.2857142857;padding-top:12px;}
 .taxonomy-description p, .author-description p{margin-bottom:12px;}
 .taxonomy-description p:last-child, .author-description p:last-child{margin-bottom:0;}
-.taxonomy-description a, .author-description a{text-decoration:underline;}
+.taxonomy-description a, .author-description a{}
 .taxonomy-description a:hover, .author-description a:hover{text-decoration:none;}
 .contributor{border-bottom:1px solid rgba(0, 0, 0, 0.1);box-sizing:border-box;padding:44px 10px;}
 .contributor:first-of-type{padding-top:1.0em;}
 .contributor-info{margin:0 auto;max-width:474px;}
 .contributor-avatar{border:rgba(0, 0, 0, 0.1) solid 1px;float:left;margin:0 30px 1.0em 0;padding:2px;}
 .contributor-name{font-size:0.8em;font-weight:900;line-height:1.5;margin:0;}
-.contributor-bio a{text-decoration:underline;}
+.contributor-bio a{}
 .contributor-bio a:hover{text-decoration:none;}
 .contributor-posts-link{display:inline-block;line-height:normal;padding:10px 30px;}
 .contributor-posts-link:before{content:"\f443";}
