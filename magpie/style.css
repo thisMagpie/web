@@ -108,7 +108,7 @@ site-content blockquote.alignleft, .site-content blockquote.alignright{border-to
 .bypostauthor > article .fn:before, .comment-edit-link:before, .comment-reply-link:before, .comment-reply-login:before, .comment-reply-title small a:before, .contributor-posts-link:before, .menu-toggle:before, .search-toggle:before, .slider-direction-nav a:before, .widget_magpie_ephemera .widget-title:before{display:inline-block;font:normal normal 1.0em/1 Genericons;text-decoration:inherit;vertical-align:text-bottom;}
 .site-content span + .entry-date:before, .full-size-link:before, .parent-post-link:before, span + .byline:before, span + .comments-link:before, span + .edit-link:before, .widget_magpie_ephemera .entry-title:after{content:"\0020\007c\0020";}
 .site{background-color:#fff;position:relative;}
-.main-content{max-width:100%;}
+.main-content{min-width:00px;max-width:90%;}
 #wpadminbar{min-height:32px;}
 #site-header{position:relative;z-index:3;}
 .site-header{background-color:#2F546D;position:relative;min-width:100%;z-index:4;}
@@ -472,7 +472,7 @@ a.post-thumbnail:hover{background-color:#999;}
 .archive-header, .page-header{margin:0 auto 0;padding:0 10px;}
 .error404 .page-header{margin-bottom:1.0em;}
 }
-@media screen and (min-width:594px){.site-content .entry-header{padding:2px 12px 20px 10px;border-radius:0px 1px 16px 2px;background:#5aa6af;}
+@media screen and (min-width:594px){.site-content .entry-header{padding:2px 12px 20px 10px;border-6px 6px 6px 6px;background:#5aa6af;}
 .site-content .has-post-thumbnail .entry-header{min-width:100%;padding-right:300px;}
 }
 @media screen and (min-width:673px){.header-main{padding:0 0 0 15px;}
