@@ -564,11 +564,11 @@ a.post-thumbnail:hover{background-color:#999;}
 .secondary-navigation .menu-item-has-children > a:after{content:"\f501";display:inline-block;font:normal normal 8px/1 Genericons;position:bottom;right:26px;top:12px;vertical-align:text-bottom;}
 .footer-sidebar .widget, .primary-sidebar .widget{font-size: 0.8em;/* line-height:1.5; */color: #000;}
 .footer-sidebar .widget{box-sizing:border-box;float:middle;padding:0 30px;width:25%;}
-.footer-sidebar .widget h1, .primary-sidebar .widget h1{font-size:1.0em;line-height:1.2;}
-.footer-sidebar .widget h2, .primary-sidebar .widget h2{font-size:1.0em;line-height:1.33;}
-.footer-sidebar .widget h3, .primary-sidebar .widget h3{font-size:1.0em;line-height:1.5;}
-.footer-sidebar .widget h4, .primary-sidebar .widget h4{font-size:0.8em;line-height:1.7142857142;}
-.footer-sidebar .widget h5, .primary-sidebar .widget h5{font-size:0.8em;line-height:2;}
+.footer-sidebar .widget h1, .primary-sidebar .widget h1{font-size:1.8em;line-height:1.2;}
+.footer-sidebar .widget h2, .primary-sidebar .widget h2{font-size:1.6em;line-height:1.33;}
+.footer-sidebar .widget h3, .primary-sidebar .widget h3{font-size:1.4em;line-height:1.5;}
+.footer-sidebar .widget h4, .primary-sidebar .widget h4{font-size:1.2em;line-height:1.7142857142;}
+.footer-sidebar .widget h5, .primary-sidebar .widget h5{font-size:1.0em;line-height:2;}
 .footer-sidebar .widget h6, .primary-sidebar .widget h6{font-size:0.8em;line-height:2.2;}
 .footer-sidebar .widget code, .footer-sidebar .widget kbd, .footer-sidebar .widget tt, .footer-sidebar .widget var, .footer-sidebar .widget samp, .footer-sidebar .widget pre, .primary-sidebar .widget code, .primary-sidebar .widget kbd, .primary-sidebar .widget tt, .primary-sidebar .widget var, .primary-sidebar .widget samp, .primary-sidebar .widget pre{font-size:0.8em;line-height:1.6;}
 .footer-sidebar .widget blockquote, .primary-sidebar .widget blockquote{font-size:0.8em;line-height:1.23;}
