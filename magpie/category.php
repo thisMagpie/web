@@ -16,9 +16,9 @@ get_header(); ?>
 			<header class="archive-header">
 				<?php
 					$term_description = term_description();
-					if ( ! empty( $term_description ) ) :
+				/*	if ( ! empty( $term_description ) ) :
 						printf( '<div class="taxonomy-description">%s</div>', $term_description );
-					endif;
+					endif; */
 				?>
 			</header><!-- .archive-header -->
 			<?php
