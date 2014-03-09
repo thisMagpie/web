@@ -17,7 +17,7 @@ audio, canvas, video{display:inline-block;max-width:100%;}
 html{overflow-y:scroll;}
 body, button, input, select, textarea{background-color: #f6f6f6;font-family:Lato, sans-serif;/* font-size:1.0em; */font-weight:500;line-height:1.0;}
 body{background:#f5f5f5;}
-a{color:#000;text-decoration:none;}
+a{color:#000;}
 a:focus{outline:thin dotted;}
 a:hover, a:active{outline:0;}
 a:active, a:hover{color:#1E1982;}
@@ -139,21 +139,21 @@ f{min-height:42px;padding:0 10px;}
 .menu-toggle:before{color:#fff;content:"\f419";margin-top:1.0em;}
 .content-area{padding-top:0;}
 .hentry{/* margin:0 auto 0; *//* padding-left:0; */}
-.site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content .entry-meta, .page-content{margin:0 auto;background:none repeat scroll 0% 0% #A9A9A9;border:3px solid #dddddd;border: 3px solid rgb(221, 221, 221);margin: 4px 0px 5px 0px;}
+.site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content .entry-meta, .page-content{margin:0 auto;background:none repeat scroll 0% 0%  #536F85;border:3px solid #dddddd;border:3px solid rgb(221, 221, 221);margin: 7px 0px 12px 2px;}
 .page-content{margin-bottom:44px;}
 .post-thumbnail{z-index:0;}
 a.post-thumbnail:hover{background-color:#999;}
 .full-width .post-thumbnail img{margin:0 auto;}
 .entry-header{z-index:1;}
-.entry-title{font-size:3.2em;font-weight:500;line-height:1.1;margin:0px 3px 48px 12px;padding:14px 0px 20px 10px;background:none repeat scroll 0% 0% #f6f6f6;border:padding:14px 0px 20px 10px;1px solid #bebebe;border-radius:5px 5px 0px 0px;border-bottom-color:#fff;}
-.entry-title a{color:#000;}
-.entry-title a:hover{color:#000;}
-.site-content .entry-header{background-color:4A888F;}
+.entry-title{font-size: 3.2em;font-weight:500;line-height:1.1;margin: 0px 3px 48px 12px;padding:8px 6px 8px 6px;background:none repeat scroll 0% 0% #F6F6F6;border-radius:4px;border-bottom-color:#ccc;}
+.entry-title a{background:#536F85;color:#fff;border-radius:8px 8px 8px 8px;}
+.entry-title a:hover{color:#fff;}
+.site-content .entry-header{background-color:#4A888F;}
 .site-content .has-post-thumbnail .entry-header{padding-top:1.0px; padding-left:0;}
 .entry-meta{clear:both;color:#767;font-size:1.0em;font-weight:500;line-height:1.0;float:right;}
-.entry-meta a:hover{color:#536F85;}
+.entry-meta a:hover{color:#fff;}
 .sticky .entry-date{display:none;}
-.cat-links{font-weight:900;text-transform:none;}
+.cat-links{font-weight:500;font-size:1.4em;}
 .cat-links a{color:#f4f4f4;font-size:1.0em;}
 .cat-links a:hover{color:#fff;}
 .byline{display:none;}
@@ -338,7 +338,7 @@ a.post-thumbnail:hover{background-color:#999;}
 .widget_magpie_ephemera .entry-title, .widget_magpie_ephemera .entry-meta, .widget_magpie_ephemera .wp-caption-text, .widget_magpie_ephemera .post-format-archive-link, .widget_magpie_ephemera .entry-content table{font-size:1.0em;line-height:1.5;}
 .widget_magpie_ephemera .entry-title{display:inline;font-weight:400;}
 .widget_magpie_ephemera .entry-meta{margin-bottom:1.0em;}
-.widget_magpie_ephemera .entry-meta a{color:rgba(255, 255, 255, 0.7);}
+.widget_magpie_ephemera .entry-meta a{color:#fff;}
 .widget_magpie_ephemera .entry-meta a:hover{color:#5F9F9F;}
 .widget_magpie_ephemera .entry-content ul, .widget_magpie_ephemera .entry-content ol{margin:0 0 1.0em 1.0em;}
 .widget_magpie_ephemera .entry-content ul{list-style:disc;}
@@ -393,7 +393,7 @@ a.post-thumbnail:hover{background-color:#999;}
 .content-sidebar .widget_magpie_ephemera .link.widget-title:before{content:"\f107";}
 .content-sidebar .widget_magpie_ephemera > ol > li{border-bottom:1px solid rgba(0, 0, 0, 0.1);}
 .content-sidebar .widget_magpie_ephemera .entry-meta{color:#ccc;}
-.content-sidebar .widget_magpie_ephemera .entry-meta a{color:#767676;}
+.content-sidebar .widget_magpie_ephemera .entry-meta a{color:#f6f6f6;}
 .content-sidebar .widget_magpie_ephemera .entry-meta a:hover{color:#5F9F9F;}
 .content-sidebar.widget_magpie_ephemera blockquote cite{font-size:0.8em;line-height:1.3846153846;}
 .content-sidebar .widget_magpie_ephemera .post-format-archive-link{font-weight:500;}
