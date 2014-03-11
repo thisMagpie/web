@@ -165,7 +165,11 @@ a.post-thumbnail:hover{background-color:#999;}
 .entry-meta .tag-links a:hover:before{border-right-color:#5F9F9F;}
 .entry-meta .tag-links a:after{background-color:#fff;content:"";height:4px;position:inherit;top:8px;left:-2px;width:4px;}
 .entry-content, .entry-summary, .page-content{hyphens:auto;overflow-wrap:break-word;}
+<<<<<<< HEAD
 .site-content .entry-content, .site-content .entry-summary, .page-content{background-color:#fff;padding:0px;border:#ccc solid 0;padding:4%;line-height: 2;}
+=======
+.site-content .entry-content, .site-content .entry-summary, .page-content{background-color:#fff;padding:0px;border:#ccc solid 0;}
+>>>>>>> 659a4f4b00dc196ba1ca9870695658eac3392335
 .page .entry-content{padding-top:0;}
 .entry-content h1:first-child, .entry-content h2:first-child, .entry-content h3:first-child, .entry-content h4:first-child, .entry-content h5:first-child, .entry-content h6:first-child, .entry-summary h1:first-child, .entry-summary h2:first-child, .entry-summary h3:first-child, .entry-summary h4:first-child, .entry-summary h5:first-child, .entry-summary h6:first-child, .page-content h1:first-child, .page-content h2:first-child, .page-content h3:first-child, .page-content h4:first-child, .page-content h5:first-child, .page-content h6:first-child{margin-top:0;}
 .entry-content a, .entry-summary a, .page-content a, .comment-content a{text-decoration:none}
@@ -479,7 +483,11 @@ a.post-thumbnail:hover{background-color:#999;}
 .search-toggle{margin-right:1.0em;}
 .search-box .search-field{width:30%;}
 .content-area{padding-top:46px;padding-right:0;}
+<<<<<<< HEAD
 .site-content{padding: 0px 0px 0px 0px;}
+=======
+.site-content{padding: 0px 320px 0px 0px;}
+>>>>>>> 659a4f4b00dc196ba1ca9870695658eac3392335
 .site-content .has-post-thumbnail .entry-header{margin-top:0;}
 .singular .site-content .hentry.has-post-thumbnail{margin-top:0;}
 .full-width .site-content{margin-right:0;}
