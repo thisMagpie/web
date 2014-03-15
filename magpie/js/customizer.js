@@ -3,36 +3,4 @@
  *
  * Contains handlers to make Theme Customizer preview reload changes asynchronously.
  */
-( function( $ ) {
-	// Site title and description.
-	wp.customize( 'blogname', function( value ) {
-		value.bind( function( to ) {
-			$( '.site-title a' ).text( to );
-		} );
-	} );
-	wp.customize( 'blogdescription', function( value ) {
-		value.bind( function( to ) {
-			$( '.site-description' ).text( to );
-		} );
-	} );
-	// Header text color.
-	wp.customize( 'header_textcolor', function( value ) {
-		value.bind( function( to ) {
-			if ( 'blank' === to ) {
-				$( '.site-title, .site-description' ).css( {
-					'clip': 'rect(1px, 1px, 1px, 1px)',
-					'position': 'absolute'
-				} );
-			} else {
-				$( '.site-title,  .site-description' ).css( {
-					'clip': 'auto',
-					'position': 'static'
-				} );
-
-				$( '.site-title a' ).css( {
-					'color': to
-				} );
-			}
-		} );
-	} );
-} )( jQuery );
+(function(e){wp.customize("blogname",function(t){t.bind(function(t){e(".site-title a").text(t)})});wp.customize("blogdescription",function(t){t.bind(function(t){e(".site-description").text(t)})});wp.customize("header_textcolor",function(t){t.bind(function(t){if("blank"===t){e(".site-title, .site-description").css({clip:"rect(1px, 1px, 1px, 1px)",position:"absolute"})}else{e(".site-title,  .site-description").css({clip:"auto",position:"static"});e(".site-title a").css({color:t})}})})})(jQuery)

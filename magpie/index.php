@@ -25,6 +25,7 @@ get_header(); ?>
 					 */
 					get_template_part( 'content', get_post_format() );
 				endwhile;
+
 				// Previous/next post navigation.
 				magpie_paging_nav();
 			else :
@@ -32,10 +33,11 @@ get_header(); ?>
 				get_template_part( 'content', 'none' );
 			endif;
 		?>
+
 		</div><!-- #content -->
 	</div><!-- #primary -->
+
 </div><!-- #main-content -->
 <?php
-get_sidebar( 'content' );
 get_sidebar();
 get_footer();

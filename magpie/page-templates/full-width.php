@@ -20,9 +20,12 @@ get_header(); ?>
 			<?php
 				// Start the Loop.
 				while ( have_posts() ) : the_post();
-
 					// Include the page content template.
 					get_template_part( 'content', 'page' );
+
+				endwhile;
+				// Start the Loop.
+				while ( have_posts() ) : the_post();
 
 					if ( comments_open() || get_comments_number() ) {
 						comments_template();

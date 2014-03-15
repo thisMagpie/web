@@ -14,6 +14,7 @@
 		<div class="entry-meta">
 			<span class="cat-links"><?php echo get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'magpie' ) ); ?></span>
 		</div><!-- .entry-meta -->
+		
 		<?php
 			endif;
 

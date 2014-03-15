@@ -3,7 +3,6 @@
  * The template for displaying Category pages
  *
  * @link http://codex.wordpress.org/Template_Hierarchy
- *
  * @package Magpie
  * @since Magpie 1.0
  */

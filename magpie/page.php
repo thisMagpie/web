@@ -12,9 +12,10 @@ get_header(); ?>
 	if ( is_front_page() && magpie_has_featured_posts() ) {
 		get_template_part( 'featured-content' );
 	}
-?>
 	<div id="primary" class="content-area">
+	<?php  ?>
 		<div id="content" class="site-content" role="main">
+
 			<?php
 				while ( have_posts() ) : the_post();
 					get_template_part( 'content', 'page' );
@@ -25,9 +26,9 @@ get_header(); ?>
 			?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
-</div><!-- #main-content -->
 <?php
-get_sidebar( 'content' );
+get_sidebar( 'content' ); ?>
+</div><!-- #main-content -->
+
 get_sidebar();
 get_footer();
-

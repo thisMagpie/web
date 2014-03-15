@@ -8,12 +8,13 @@
  * @since Magpie 1.0
  */
 ?>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <header class="entry-header">
         <div class="entry-meta">
         <span class="cat-links">
             <?php echo get_the_category_list( _x( ', ',
-			                                      'Used between list items, there is a space after the comma.', 'magpie' ) ); ?>
+			                                      'Used between list items, there is a space', 'magpie' ) ); ?>
             </span>
 		</div>
 		<?php
@@ -26,9 +27,8 @@
                 '</a></h1>' );
             endif;
         ?>
-
 		<div class="entry-meta">
-			<?php
+  			<?php
 				if ( 'post' == get_post_type() )
 					magpie_posted_on();
 
@@ -49,7 +49,6 @@
             ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
-
 	<?php if ( is_search() ) : ?>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
