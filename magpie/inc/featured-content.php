@@ -115,7 +115,7 @@ class Featured_Content {
 	 *
 	 * @static
 	 * @access public
-	 * @since Twenty Fourteen 1.0
+	 * @since Magpie 1.0
 	 *
 	 * @return array Array of featured posts.
 	 */
